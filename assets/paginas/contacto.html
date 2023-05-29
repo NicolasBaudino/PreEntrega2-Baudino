@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagenes/TSIcon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../CSS/style.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- Lista desordenada con secciones de la página -->
+            <ul>
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="historia.html">HISTORIA</a></li>
+                <li><a href="discografia.html">DISCOGRAFIA</a></li>
+                <li><a href="tour.html">TOUR</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Titulo -->
+        <div>
+            <h1 class="tituloSubpagina">CONTACTO</h1>
+        </div>
+        
+        <!-- Formulario -->
+        <form>
+            <div class="containerFormulario">
+                <div class="paddingFormulario">
+                    <label for="name">Nombre:</label>
+                    <input id="name" type="text" placeholder="Escriba su nombre...">
+                </div>
+                <div class="radio paddingFormulario">
+                    <label for="sexo">Sexo:</label>
+                    <input type="radio" name="sexo" value="Masculino">Masculino
+                    <input type="radio" name="sexo" value="Femenino">Femenino
+                    <input type="radio" name="sexo" value="No Binario">No Binario
+                </div>
+                <div class="paddingFormulario">
+                    <label for="correo">Email:</label>
+                    <input id="correo" type="email" placeholder="Escriba su email...">
+                </div>
+                <div class="paddingFormulario">
+                    <label for="contraseña">Password:</label>
+                    <input id="contraseña" type="password">
+                </div>
+                <div class="textArea paddingFormulario">
+                    <label for="comentarios">Algo que quieras aportar:</label>
+                    <textarea name="comentarios" id="comentarios" cols="30" rows="10" class="comentario"></textarea>
+                </div>
+                <br>
+                <!-- botones -->
+                <div class="botones">
+                    <input type="submit" value="Enviar" >
+                    <input type="reset" value="Resetear">
+                </div>
+            </div>
+        </form>
+
+        <div class="containerImagenContacto">
+            <img src="../imagenes/TaylorSwiftContacto.jpg" alt="Taylor Swift Contacto" width="477px" height="465px">
+        </div>
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>
+            © 2023 Taylor Swift - Todos los derechos reservados.
+        </p>
+        <!-- Redes -->
+        <div class="redes">
+            <a href="https://www.instagram.com/taylorswift/" target="_blank"><img src="../imagenes/instagram.png" alt="Instagram de Taylor Swift" width="32px" height="32px"></a>
+            <a href="https://twitter.com/taylorswift13" target="_blank"><img src="../imagenes/twitter.png" alt="Twitter de Taylor Swift" width="32px" height="32px"></a>
+            <a href="https://www.tiktok.com/@taylorswift?is_from_webapp=1&sender_device=pc" target="_blank"><img src="../imagenes/tik-tok.png" alt="TikTok de Taylor Swift" width="32px" height="32px"></a>
+            <a href="https://www.youtube.com/@TaylorSwift" target="_blank"><img src="../imagenes/youtube.png" alt="Youtube de Taylor Swift" width="32px" height="32px"></a>
+            <a href="https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02?si=CeuKg_l6RaWEEqLzFBmDng" target="_blank"><img src="../imagenes/spotify.png" alt="Spotify de Taylor Swift" width="32px" height="32px"></a>
+        </div>
+    </footer>
+</body>
+</html>
