@@ -59,6 +59,14 @@ h1 {
     font-family: "Ambroise-Francois-Bold";
 }
 
+h2 {
+    font-family: "Ambroise-Francois-Bold";
+}
+
+h5 {
+    font-family: "NeueHaasDisplayRoman"
+}
+
 p {
     font-family: "NeueHaasDisplayLight";
 }
@@ -80,6 +88,45 @@ p {
 @media (min-width: 1200px) {
     p {
         font-size: 20px;
+    }
+}
+
+/* TAMAÑO TITULOS SUBPAGINAS */
+
+@media (min-width: 320px) and (max-width: 444px) {
+    .tituloSubpagina h1 {
+        font-size: 70px;
+    }
+}
+
+@media (min-width: 445px) and (max-width: 1200px) {
+    .tituloSubpagina h1 {
+        font-size: 85px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .tituloSubpagina h1 {
+        font-size: 130px;
+    }
+}
+
+/* TAMAÑO SUBTITULOS */
+@media (min-width: 320px) and (max-width: 444px) {
+    h2 {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 445px) and (max-width: 1200px) {
+    h2 {
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+    h2 {
+        font-size: 100px;
     }
 }
 
@@ -139,26 +186,10 @@ footer {
 }
 
 /* ESTILOS TOUR */
-.container{
-    width: 1100px;
-    position: relative;
-    margin: auto;
-  
-}
-.imagenTamaño {
-    width: 400px;
-    height: 400px;
-    display: inline-block;
-}
-.textoTour {
-    width: 700px;
-    height: 400px;
-    display: inline-block;
-    position: absolute;
-    top: 100px;
-    right: 0px;
-
-    
+.centradoImagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* ESTILOS CONTACTO */
