@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../../css/style.css">
     <title>Contacto</title>
 </head>
+
 <body>
     <header>
         <!-- BOOTSTRAP NAVBAR -->
@@ -40,7 +41,6 @@
                 </div>
             </div>
         </nav>
-
     </header>
 
     <main>
@@ -54,41 +54,84 @@
         </div>
         
         <!-- Formulario -->
-        <form>
-            <div class="containerFormulario">
-                <div class="paddingFormulario">
-                    <label for="name">Nombre:</label>
-                    <input id="name" type="text" placeholder="Escriba su nombre...">
-                </div>
-                <div class="radio paddingFormulario">
-                    <label for="sexo">Sexo:</label>
-                    <input type="radio" name="sexo" value="Masculino">Masculino
-                    <input type="radio" name="sexo" value="Femenino">Femenino
-                    <input type="radio" name="sexo" value="No Binario">No Binario
-                </div>
-                <div class="paddingFormulario">
-                    <label for="correo">Email:</label>
-                    <input id="correo" type="email" placeholder="Escriba su email...">
-                </div>
-                <div class="paddingFormulario">
-                    <label for="contraseña">Password:</label>
-                    <input id="contraseña" type="password">
-                </div>
-                <div class="textArea paddingFormulario">
-                    <label for="comentarios">Algo que quieras aportar:</label>
-                    <textarea name="comentarios" id="comentarios" cols="30" rows="5" class="comentario"></textarea>
-                </div>
-                <br>
-                <!-- botones -->
-                <div class="botones">
-                    <input type="submit" value="Enviar" >
-                    <input type="reset" value="Resetear">
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div class="col-12 p-1">
+                    <form>
+                        <label for="name">Nombre:</label>
+                        <input id="name" type="text" placeholder="Escriba su nombre...">
+                    </form>
+              </div>
+            </div>
+        </div>
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div class="col-12 p-1">
+                    <form>
+                        <label for="sexo">Sexo:</label>
+                        <input type="radio" name="sexo" value="Masculino"> Masculino
+                        <input type="radio" name="sexo" value="Femenino"> Femenino
+                        <input type="radio" name="sexo" value="No Binario"> No Binario
+                    </form>
                 </div>
             </div>
-        </form>
+        </div>
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div class="col-12 p-1">
+                    <form>
+                        <label for="correo">Email:</label>
+                        <input id="correo" type="email" placeholder="Escriba su email...">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div class="col-12 p-1">
+                    <form>
+                        <label for="contraseña">Password:</label>
+                        <input id="contraseña" type="password">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div class="col-12 p-1">
+                    <form>
+                        <label for="comentarios">Algo que quieras aportar:</label>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div class="col-12 p-1">
+                    <form>
+                        <textarea name="comentarios" id="comentarios" cols="30" rows="5" class="comentario"></textarea>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div class="col-12 p-1">
+                    <form>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Resetear">
+                    </form>
+                </div>
+            </div>
+        </div>
 
-        <div class="containerImagenContacto">
-            <img src="../imagenes/TaylorSwiftContacto.jpg" alt="Taylor Swift Contacto" width="477px" height="465px">
+        <!-- IMAGEN CONTACTO -->
+        <div class="container text-center">
+            <div class="row">
+                <div class="p-3">
+                    <img src="../imagenes/TaylorSwiftContacto.jpg" alt="Taylor Swift Contacto" width="70%">
+                </div>
+            </div>
         </div>
     </main>
 

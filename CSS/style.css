@@ -169,22 +169,6 @@ footer {
     }
 }
 
-/* ESTILOS HISTORIA */
-.textoHistoria {
-    width: 1000px;
-    text-align: center;
-    margin: auto;
-}
-
-/* ESTILOS DISCOGRAFIA */
-.albumsCentrados {
-    text-align: center;
-}
-
-.separacionAbajo{
-    padding: 0px 0px 35px 0px;
-}
-
 /* ESTILOS TOUR */
 .centradoImagen {
     display: flex;
@@ -196,41 +180,6 @@ footer {
 
 form {
     font-family: "NeueHaasDisplayLight";
-}
-
-.containerFormulario {
-    width: 300px;
-    margin: auto;
-}
-
-.paddingFormulario {
-    padding: 10px;
-}
-
-.botones {
-    color: black;
-    font-family: "NeueHaasDisplayLight";
-    font-size: 15px;
-    margin: auto;
-    width: 125px
-}
-
-.textArea {
-    position: relative;
-    width: 500px;
-    height: 175px;
-}
-
-.comentario {
-    position: absolute;
-    left: 10px;
-    bottom: 0px;
-}
-
-.containerImagenContacto {
-    width: 500px;
-    margin: auto;
-    padding: 10px;
 }
 
 
